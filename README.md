@@ -1,20 +1,21 @@
-#📊 Experimento de Cashback – Méliuz
-####📌 Visão Geral
+📊 Experimento de Cashback – Méliuz
+
+📌 Visão Geral
 Este projeto apresenta uma análise exploratória de dados de um experimento de cashback, focando em entender o comportamento do volume de vendas ao longo do tempo.
 A análise foi desenvolvida com abordagem prática e orientada ao negócio, priorizando leitura executiva e conclusões acionáveis aplicáveis a estratégias de retenção e crescimento.
 
-####🎯 Objetivo do Projeto
+🎯 Objetivo do Projeto
 Analisar como um programa de cashback influencia o volume de vendas ao longo de um período de 6 meses, respondendo a perguntas-chave sobre variabilidade e comportamento de vendas.
 
-####📊 Dataset
+📊 Dataset
 AspectoDescriçãoOrigemDados de experimento de cashback - MéliuzPeríodo6 meses de análise (Janeiro a Junho)Tamanho6 registros mensais de vendasFonteAtividade prática estruturada
 
-####📋 Estrutura dos Dados
+📋 Estrutura dos Dados
 dados: Dados brutos mensais
 mes: Mês de referência (Janeiro a Junho)
 vendas: Quantidade de vendas registradas no período
 
-####🔧 Metodologia
+🔧 Metodologia
 A análise seguiu um fluxo simples e reproduzível:
 
 1️⃣ Importação de Dados
@@ -41,8 +42,7 @@ Representação visual do comportamento mensal
 6️⃣ Interpretação e Conclusões
 Análise orientada a decisões de negócio
 Recomendações estratégicas baseadas em dados
-
-#####📈 Resultados Principais
+📈 Resultados Principais
 
 Quantidade de Vendas por Mês
 
@@ -57,7 +57,7 @@ Análise de Variação
 
 📌 Leitura Analítica: O volume de vendas apresenta oscilações mensais evidentes, sugerindo influência de fatores pontuais, como campanhas promocionais sazonais.
 
-####🎯 Conclusões:
+🎯 Conclusões:
 
 Achados Principais
 
@@ -83,13 +83,13 @@ Implicações Estratégicas
     -Programas de retenção de clientes
     -Ações de recorrência e fidelização
 
-####💻 Tecnologias Utilizadas
+💻 Tecnologias Utilizadas
 Python 3
 Pandas - Manipulação e organização de dados
 Matplotlib - Visualizações gráficas
 Jupyter Notebook - Ambiente de desenvolvimento
 
-####🚀 Como Reproduzir
+🚀 Como Reproduzir
 
 Pré-requisitos:
 pythonimport pandas as pd
@@ -102,14 +102,13 @@ Crie tabela resumida
 Gere visualizações
 Interprete os padrões
 
-
-####📁 Estrutura do Projeto
+📁 Estrutura do Projeto
 📦 experimento-cashback-meliuz/
 ├── 📓 cashback_analysis.ipynb    # Notebook principal
 ├── 📄 README.md                  # Este arquivo
 └── 📊 dados_cashback.csv         # Dataset original
 
-####🎓 Competências Demonstradas
+🎓 Competências Demonstradas
 
 ✅ Análise Exploratória (EDA): Investigação sistemática de padrões
 ✅ Manipulação de Dados: Organização e agregação com Pandas
@@ -118,23 +117,21 @@ Interprete os padrões
 ✅ Comunicação: Leitura executiva e recomendações acionáveis
 
 
-####📚 Contexto
+📚 Contexto
 
 Realizado em: 2026
 Fonte: Atividade prática estruturada
 Cargo Alvo: Analista de Dados Júnior
 Autora: Danielli Meilene Coutinho Arçari
 
-
-####🔗 Links Relacionados
+🔗 Links Relacionados
 
 💼 LinkedIn
 🌐 Portfólio Completo
 📧 Email: axiadmc@gmail.com
 💻 GitHub
 
-
-####💡 Próximos Passos Sugeridos
+💡 Próximos Passos Sugeridos
 Para expandir esta análise:
 
 📊 Análise de segmentação de clientes por valor de cashback
