@@ -1,122 +1,147 @@
-# 📊 Experimento de Cashback – Méliuz | Análise Exploratória de Dados
+#📊 Experimento de Cashback – Méliuz
+####📌 Visão Geral
+Este projeto apresenta uma análise exploratória de dados de um experimento de cashback, focando em entender o comportamento do volume de vendas ao longo do tempo.
+A análise foi desenvolvida com abordagem prática e orientada ao negócio, priorizando leitura executiva e conclusões acionáveis aplicáveis a estratégias de retenção e crescimento.
 
-## Autora
+####🎯 Objetivo do Projeto
+Analisar como um programa de cashback influencia o volume de vendas ao longo de um período de 6 meses, respondendo a perguntas-chave sobre variabilidade e comportamento de vendas.
 
-**Danielli Meilene Coutinho Arçari**
-Analista de Dados Júnior (em formação)
+####📊 Dataset
+AspectoDescriçãoOrigemDados de experimento de cashback - MéliuzPeríodo6 meses de análise (Janeiro a Junho)Tamanho6 registros mensais de vendasFonteAtividade prática estruturada
 
----
+####📋 Estrutura dos Dados
+dados: Dados brutos mensais
+mes: Mês de referência (Janeiro a Junho)
+vendas: Quantidade de vendas registradas no período
 
-## Contexto do Problema
-
-Programas de cashback são utilizados para incentivar compras e aumentar o volume de vendas. No entanto, aumentos pontuais de incentivo nem sempre geram crescimento sustentável. Este projeto analisa um conjunto de dados inspirado em um experimento de cashback, com foco em entender **como o volume de vendas se comporta ao longo do tempo**.
-
-A análise foi construída com abordagem prática, orientada a negócio e alinhada ao nível de um **Analista de Dados Júnior**, priorizando clareza, leitura executiva e conclusões acionáveis.
-
----
-
-## Fonte dos Dados
-
-Os dados utilizados neste projeto foram obtidos a partir da seguinte atividade prática:
-
-* Fonte: [https://app.networkme.com.br/main/activities/146659c7-2e0f-41ff-b1a3-58e76f9e1ee6/play](https://app.networkme.com.br/main/activities/146659c7-2e0f-41ff-b1a3-58e76f9e1ee6/play)
-
-O dataset contém registros de vendas associadas a um programa de cashback, organizados por período mensal.
-
----
-
-## Perguntas de Negócio
-
-A análise concentrou-se **exclusivamente** nas seguintes questões:
-
-1. Quantas vendas ocorreram em cada mês?
-2. Existe variação no volume de vendas entre os meses analisados?
-
----
-
-## Estrutura do Dataset
-
-| Coluna | Descrição                        |
-| ------ | -------------------------------- |
-| data   | Data da venda                    |
-| mes    | Mês de referência                |
-| vendas | Quantidade de vendas registradas |
-
----
-
-## Metodologia
-
+####🔧 Metodologia
 A análise seguiu um fluxo simples e reproduzível:
 
-1. Importação dos dados com Pandas
-2. Verificação de consistência e tipos de dados
-3. Agrupamento das vendas por mês
-4. Criação de tabela resumo mensal
-5. Visualização gráfica do volume de vendas
-6. Interpretação orientada a negócio
+1️⃣ Importação de Dados
+Carregamento dos dados com Pandas
+Verificação inicial de dimensões e tipos
 
----
+2️⃣ Verificação de Consistência
+Análise de tipos de dados
+Validação de integridade dos registros
+Identificação de valores ausentes ou inconsistentes
 
-## Resultados da Análise
+3️⃣ Agrupamento por Período
+Organização de vendas por mês
+Consolidação de dados mensais
 
-### Quantidade de Vendas por Mês
+4️⃣ Criação de Tabela Resumida
+Tabela consolidada com mês e volume de vendas
+Estrutura clara para comparação temporal
 
-Tabela consolidada a partir do dataset:
+5️⃣ Visualização Gráfica
+Gráficos para identificar padrões e tendências
+Representação visual do comportamento mensal
 
-| Mês       | Vendas |
-| --------- | ------ |
-| Janeiro   | 120    |
-| Fevereiro | 98     |
-| Março     | 145    |
-| Abril     | 110    |
-| Maio      | 160    |
-| Junho     | 102    |
+6️⃣ Interpretação e Conclusões
+Análise orientada a decisões de negócio
+Recomendações estratégicas baseadas em dados
 
-📌 **Leitura Analítica:** O número de vendas varia entre os meses, indicando comportamento não uniforme ao longo do período analisado.
+#####📈 Resultados Principais
 
----
+Quantidade de Vendas por Mês
 
-### Variação do Volume de Vendas
+MêsVendasJaneiro120Fevereiro98Março145Abril110Maio160Junho102
 
-A análise comparativa entre os meses mostrou que:
+📌 Leitura Analítica: O número de vendas varia significativamente entre os meses, indicando um comportamento não uniforme ao longo do período analisado.
+Análise de Variação
 
-* Há meses com volume significativamente maior de vendas.
-* Também existem meses com retração relevante.
-* Não foi observada estabilidade no volume de vendas ao longo do tempo.
+✅ Meses com volume elevado: Março (145), Maio (160)
+✅ Meses com retração: Fevereiro (98), Junho (102)
+✅ Padrão observado: Oscilações claras e não lineares
 
-📌 **Leitura Analítica:** O volume de vendas apresenta oscilações mensais claras, sugerindo influência de fatores pontuais, como campanhas promocionais.
+📌 Leitura Analítica: O volume de vendas apresenta oscilações mensais evidentes, sugerindo influência de fatores pontuais, como campanhas promocionais sazonais.
 
----
+####🎯 Conclusões:
 
-## Conclusões
+Achados Principais
 
-A partir da análise exploratória, conclui-se que:
+Variação Significativa:
+-O volume de vendas oscilou entre 98 e 160 unidades
+-Amplitude de variação = 62 vendas (63% do menor valor)
 
-* O volume de vendas varia significativamente entre os meses.
-* Os aumentos observados são pontuais e não se sustentam nos períodos seguintes.
-* O comportamento é compatível com ações promocionais de curto prazo.
+Picos e Vales Identificados:
+-Picos: Maio (160) e Março (145)
+-Quedas: Fevereiro (98) e Junho (102)
 
----
+Comportamento Não Sustentável:
+-Aumentos observados são pontuais
+-Não se sustentam nos períodos seguintes
+-Compatível com ações promocionais de curto prazo
 
-## Implicações de Negócio
+Implicações Estratégicas
+📌 Do ponto de vista de negócio:
+- Cashback é eficaz para picos de curto prazo - Consegue estimular vendas em períodos específicos
+- Não é estratégia única de crescimento - Necessita complementação com outras táticas
+- Para sustentabilidade, combinar:
+    -Incentivos financeiros (cashback)
+    -Programas de retenção de clientes
+    -Ações de recorrência e fidelização
 
-Do ponto de vista estratégico:
+####💻 Tecnologias Utilizadas
+Python 3
+Pandas - Manipulação e organização de dados
+Matplotlib - Visualizações gráficas
+Jupyter Notebook - Ambiente de desenvolvimento
 
-* Cashback pode ser eficaz para **estimular vendas no curto prazo**.
-* Não deve ser tratado como única estratégia de crescimento.
-* Para resultados sustentáveis, é necessário combinar incentivo financeiro com retenção e recorrência.
+####🚀 Como Reproduzir
 
----
+Pré-requisitos:
+pythonimport pandas as pd
+import matplotlib.pyplot as plt
 
-## Tecnologias Utilizadas
+Passos:
+Importe os dados com Pandas
+Agrupe por mês (groupby)
+Crie tabela resumida
+Gere visualizações
+Interprete os padrões
 
-* Python
-* Pandas
-* Matplotlib
-* Jupyter Notebook
 
----
+####📁 Estrutura do Projeto
+📦 experimento-cashback-meliuz/
+├── 📓 cashback_analysis.ipynb    # Notebook principal
+├── 📄 README.md                  # Este arquivo
+└── 📊 dados_cashback.csv         # Dataset original
 
-## Considerações Finais
+####🎓 Competências Demonstradas
 
-Este projeto demonstra domínio de conceitos fundamentais de **análise exploratória de dados**, leitura de métricas e tradução de números em decisões de negócio. O escopo, a metodologia e a comunicação dos resultados estão alinhados ao perfil de **Analista de Dados Júnior**, com foco em clareza, consistência e aplicabilidade prática.
+✅ Análise Exploratória (EDA): Investigação sistemática de padrões
+✅ Manipulação de Dados: Organização e agregação com Pandas
+✅ Visualização: Comunicação clara de insights
+✅ Pensamento Estratégico: Tradução de dados em decisões de negócio
+✅ Comunicação: Leitura executiva e recomendações acionáveis
+
+
+####📚 Contexto
+
+Realizado em: 2026
+Fonte: Atividade prática estruturada
+Cargo Alvo: Analista de Dados Júnior
+Autora: Danielli Meilene Coutinho Arçari
+
+
+####🔗 Links Relacionados
+
+💼 LinkedIn
+🌐 Portfólio Completo
+📧 Email: axiadmc@gmail.com
+💻 GitHub
+
+
+####💡 Próximos Passos Sugeridos
+Para expandir esta análise:
+
+📊 Análise de segmentação de clientes por valor de cashback
+📈 Previsão de vendas futuras com base em padrões históricos
+🎯 Teste A/B para diferentes percentuais de cashback
+💰 Cálculo de ROI (retorno sobre investimento) da estratégia
+
+
+Este projeto demonstra capacidade de análise exploratória, interpretação de dados e tradução em recomendações de negócio.
+Desenvolvido com foco em clareza, consistência e aplicabilidade prática.
