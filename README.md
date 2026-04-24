@@ -1,64 +1,46 @@
-📊 Experimento de Cashback 
+📊 EXPERIMENTO DE CASHBACK - DESAFIO MELLIUZ
 
-📌 Visão Geral
-Este projeto apresenta uma análise exploratória de dados de um experimento de cashback, focando em entender o comportamento do volume de vendas ao longo do tempo. Fez parte de um mini-curso para o processo seletivo da Meliuz (que me agradou bastante e gerou um certificado: 
+📌 VISÃO GERAL:
+Este projeto apresenta uma análise exploratória de dados de um experimento de cashback, focando em entender o comportamento do volume de vendas ao longo do tempo. Fez parte de um desafio para o processo seletivo da Meliuz (que me agradou bastante e gerou um certificado de participação: https://drive.google.com/file/d/1oWOkTeHpsIo1kgvuVAsrtxh8Lvbgd9tz/view?usp=sharing)
 
 A análise foi desenvolvida com abordagem prática e orientada ao negócio, priorizando leitura executiva e conclusões acionáveis aplicáveis a estratégias de retenção e crescimento.
 
-🎯 Objetivo do Projeto
+🎯 OBJETIVO DO DESAFIO-PROJETO
 Analisar como um programa de cashback influencia o volume de vendas ao longo de um período de 6 meses, respondendo a perguntas-chave sobre variabilidade e comportamento de vendas.
 
-📊 Dataset
+📊 DATASET
 Confira no Colab: https://colab.research.google.com/drive/1slcR0ejixmAQNrfhnSUMZkvGlMUPDzGv?usp=sharing
 
-📋 Estrutura dos Dados
+📋 ESTRUTURA DOS DADOS
 dados: Dados brutos mensais
 mes: Mês de referência (Janeiro a Junho)
 vendas: Quantidade de vendas registradas no período
 
-🔧 Metodologia
+🔧 METODOLOGIA
 A análise seguiu um fluxo simples e reproduzível:
 
-1️⃣ Importação de Dados
+1️⃣ IMPORTAÇÃO DOS DADOS
 Carregamento dos dados com Pandas
 Verificação inicial de dimensões e tipos
 
-2️⃣ Verificação de Consistência
+2️⃣ VERIFICAÇÃO DE CONSISTÊNCIA DOS DADOS
 Análise de tipos de dados
 Validação de integridade dos registros
 Identificação de valores ausentes ou inconsistentes
 
-3️⃣ Agrupamento por Período
+3️⃣ AGRUPAMENTO POR PERÍODO
 Organização de vendas por mês
 Consolidação de dados mensais
 
-4️⃣ Criação de Tabela Resumida
+4️⃣ CRIAÇÃO DE TABELA RESUMIDA
 Tabela consolidada com mês e volume de vendas
 Estrutura clara para comparação temporal
 
-5️⃣ Visualização Gráfica
+5️⃣ VISUALIZAÇÃO GRÁFICA
 Gráficos para identificar padrões e tendências
 Representação visual do comportamento mensal
 
-6️⃣ Interpretação e Conclusões
-Análise orientada a decisões de negócio
-Recomendações estratégicas baseadas em dados
-📈 Resultados Principais
-
-Quantidade de Vendas por Mês
-
-MêsVendasJaneiro120Fevereiro98Março145Abril110Maio160Junho102
-
-📌 Leitura Analítica: O número de vendas varia significativamente entre os meses, indicando um comportamento não uniforme ao longo do período analisado.
-Análise de Variação
-
-✅ Meses com volume elevado: Março (145), Maio (160)
-✅ Meses com retração: Fevereiro (98), Junho (102)
-✅ Padrão observado: Oscilações claras e não lineares
-
-📌 Leitura Analítica: O volume de vendas apresenta oscilações mensais evidentes, sugerindo influência de fatores pontuais, como campanhas promocionais sazonais.
-
-🎯 Conclusões:
+6️⃣CONCLUSÕES
 
 Achados Principais
 
@@ -90,18 +72,6 @@ Pandas - Manipulação e organização de dados
 Matplotlib - Visualizações gráficas
 Jupyter Notebook - Ambiente de desenvolvimento
 
-🚀 Como Reproduzir
-
-Pré-requisitos:
-pythonimport pandas as pd
-import matplotlib.pyplot as plt
-
-Passos:
-Importe os dados com Pandas
-Agrupe por mês (groupby)
-Crie tabela resumida
-Gere visualizações
-Interprete os padrões
 
 📁 Estrutura do Projeto
 📦 experimento-cashback-meliuz/
@@ -124,13 +94,6 @@ Realizado em: 2026
 Fonte: Atividade prática estruturada
 Cargo Alvo: Analista de Dados Júnior
 Autora: Danielli Meilene Coutinho Arçari
-
-🔗 Links Relacionados
-
-💼 LinkedIn
-🌐 Portfólio Completo
-📧 Email: axiadmc@gmail.com
-💻 GitHub
 
 💡 Próximos Passos Sugeridos
 Para expandir esta análise:
