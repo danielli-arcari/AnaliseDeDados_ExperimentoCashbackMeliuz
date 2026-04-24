@@ -1,14 +1,15 @@
-📊 Experimento de Cashback – Méliuz
+📊 Experimento de Cashback 
 
 📌 Visão Geral
-Este projeto apresenta uma análise exploratória de dados de um experimento de cashback, focando em entender o comportamento do volume de vendas ao longo do tempo.
+Este projeto apresenta uma análise exploratória de dados de um experimento de cashback, focando em entender o comportamento do volume de vendas ao longo do tempo. Fez parte de um mini-curso para o processo seletivo da Meliuz (que me agradou bastante e gerou um certificado: 
+
 A análise foi desenvolvida com abordagem prática e orientada ao negócio, priorizando leitura executiva e conclusões acionáveis aplicáveis a estratégias de retenção e crescimento.
 
 🎯 Objetivo do Projeto
 Analisar como um programa de cashback influencia o volume de vendas ao longo de um período de 6 meses, respondendo a perguntas-chave sobre variabilidade e comportamento de vendas.
 
 📊 Dataset
-AspectoDescriçãoOrigemDados de experimento de cashback - MéliuzPeríodo6 meses de análise (Janeiro a Junho)Tamanho6 registros mensais de vendasFonteAtividade prática estruturada
+Confira no Colab: https://colab.research.google.com/drive/1slcR0ejixmAQNrfhnSUMZkvGlMUPDzGv?usp=sharing
 
 📋 Estrutura dos Dados
 dados: Dados brutos mensais
